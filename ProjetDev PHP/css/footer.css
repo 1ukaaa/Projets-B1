@@ -1,0 +1,117 @@
+footer{
+  background-image: url("../images/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition-duration: 0.2s;
+  bottom: 0;
+}   
+
+.footer{
+  background-color: rgba(18, 19, 19, 0.9);
+  z-index: 2;
+  width: 100%;
+}
+
+h3{
+  color: white;
+  font-size: 1.8vw;
+  text-decoration: underline; 
+}
+
+#Ds{
+  margin: 8vw 0Vw 2Vw 8Vw;
+}
+
+
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer_1 ul li a{
+  text-decoration: none;
+  color: white;
+  margin: 8vw 0Vw 0Vw 5Vw;
+  font-size: 1.3vw;
+}
+
+.footer_1 ul li a:hover{
+  color: grey;
+}
+
+#Lpp{
+  margin: -13.2vw 0Vw 2Vw 40Vw;
+}
+
+.footer_2 nav li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3vw;
+  margin: 0vw 5vw 0vw 0vw;
+}
+
+.footer_2 nav li a:hover{
+  color: grey;
+}
+
+#Menu{
+  margin: -13.2vw 0Vw 2Vw 82Vw;
+}
+
+
+.footer_3 nav li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3vw;
+  margin: 0vw 0vw 0vw 79vw;
+  
+}
+
+.footer_3 nav li a:hover{
+  color: grey;
+}
+
+#footer_hr{
+  background-color: white; 
+  width: 80vw;
+  height: 0.045vw;
+  margin: 4vw 0Vw 0Vw 0Vw;
+  border: 0;
+}
+
+.Contact{
+  margin: 4vw 0vw 10vw 0vw;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.Contact:hover{
+  font-size: 2.6vw;
+  color: gold;
+}
+
+.arrow{
+  margin: 0vw 0vw 0vw 90vw;
+  position: absolute;
+  height: 4vw;
+  width: 6vw;
+}
+
+.arrow:hover{
+  height: 4.1vw;
+  width: 6.1vw;
+}
+
+#copyright{
+  text-align: center;
+  color: #bfbfbf;
+  margin-top: -1vw;
+  font-size: 1vw;
+}

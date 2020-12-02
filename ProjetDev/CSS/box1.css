@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Stoke&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0vw;
+}
+
+.tesla{
+    float: left;
+    margin: 0vw 0vw 0 5vw; /*Haut Droite Bas Gauche*/
+    height: 25vw;
+    z-index: 1;
+}
+
+/* Effet Zoom */
+.zoom-effect-container {
+    float: left;
+    position: relative;
+    width: 64vw;
+    height: 25vw;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.image-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+
+.box_1{
+    background-image: url("../images/teslaa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -10vw;
+    width: 100%;
+    height: 55vw;
+} 
+
+
+.box-2{
+    background-color: #F3F0E9;
+    height: 25vw;
+    width: 33vw;
+    display: flex;
+    padding: 0vw 0vw 0vw 0vw ; /*Texte*/
+    margin: 0vw 0vw 0vw 0vw; /*Haut Droite Bas Gauche*/
+    justify-content: center;
+    align-items: center;
+    text-align: center  ;
+    font-size: 1vw;
+}
+
+.box-2 p{
+  z-index: 1;
+  position: absolute;
+  margin: 2vw 0vw 0vw 0vw;
+  width: 30vw;
+  font-size: 1.3vw;
+}
+
+.box-2 span{
+  font-family: 'Lobster', cursive;
+  font-size: 1.5vw;
+
+}
+
+.box-2 h2{
+  z-index: 1;
+  position: absolute;
+  margin: -10vw 0vw 0vw 0vw;
+  color: /* #ddb321*/ black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.h1{
+    margin: 5vw 0vw 3vw 0vw; /*Haut Droite Bas Gauche*/
+    font-size: 4vw;
+    text-decoration: underline gold;
+}
+
+.Titre-2{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30%;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+/* Les plus populaires */
+
+.box3 a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Alatsi', sans-serif;
+
+}
+
+.box3 a:hover{
+  color: gold;
+}
+
+.Image1{
+  display: flex;
+  justify-content: space-around;
+  float: left;
+}
+
+.bmw{
+  position: relative;
+    margin: 0vw 3vw 1.5vw 6vw; /*Haut Droite Bas Gauche*/
+    height: 30vw;
+    width: 48vw;
+    z-index: 1;
+
+  filter: blur(0);
+  -webkit-filter: blur(0);
+}
+
+.bmw:hover{
+  filter: blur(3px);
+-webkit-filter: blur(3px);
+}
+
+.Info{
+  position: absolute;
+  z-index: 2;
+  font-size: 1.5vw;
+  margin: 27vw 0vw 0vw -24vw ;
+}
+
+.box3 .hover {
+     position: absolute;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: 10s ease;
+    }
+    /* Apparition overlay sur passage souris */
+.box3:hover .hover {
+    opacity: 1;
+    }
+
+.Image2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.camaro{
+  display: flex;
+  margin: 0vw 6vw 0vw 0vw; /*Haut Droite Bas Gauche*/
+  height: 30vw;
+  width: 40vw;
+  z-index: 1;
+}
+
+.camaro:hover{
+  box-shadow: 0 0 0.2vw 0.1vw rgba(0, 140, 186, 0.9);
+}
+
+.Info_2{
+  position: absolute;
+  z-index: 2;
+  font-size: 1.5vw;
+  margin: 27vw 0vw 0vw -23vw ;
+}
+
+.Image3 {
+  display: flex;
+  justify-content: space-around;
+  float: left;
+}
+
+.lambo{
+  display: flex;
+  margin: -0.8vw 4vw 0vw 6vw; /*Haut Droite Bas Gauche*/
+  height: 30vw;
+  width: 40vw;
+  z-index: 1;
+}
+
+.lambo:hover{
+  box-shadow: 0 0 0.2vw 0.1vw rgba(0, 140, 186, 0.9);
+}
+
+.Info_3{
+  position: absolute;
+  z-index: 2;
+  font-size: 1.5vw;
+  margin: 26vw 0vw 0vw -19vw ;
+}
+
+.Image4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.amg{
+  display: flex;  
+  margin: 0.7vw 0vw 0vw -14vw; /*Haut Droite Bas Gauche*/
+  height: 30vw;
+  width: 48vw;
+  z-index: 1;
+}
+
+.amg:hover{
+  box-shadow: 0 0 0.2vw 0.1vw rgba(0, 140, 186, 0.9);
+}
+
+.Info_4{
+  position: absolute;
+  z-index: 2;
+  font-size: 1.5vw;
+  margin: 27.5vw 0vw 0vw -50vw ;
+}
+
+footer{
+  background: white;
+  width: 100%;
+  height: 5vw;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Hôtel Neptune</title>
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/box1.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cookie.css">
+    <link rel="stylesheet" href="css/newsletters">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="JS/Animation.js"></script>
+
+
+
+</head>
+<body>
+<div class="container">
+    <header>
+
+        <img class="Logo" src="Images/2550007.png" alt="">
+
+        <nav>
+            <ul>
+                <li class="home"><a href="?page=welcome">Accueil</a></li>
+                <li><a href="?page=nouveauté">Nouveauté</a></li>
+                <li ><a href="?page=réservations">Réservation</a></li>
+                <li><a href="?page=contact">Contact</a></li>
+            </ul>
+        </nav>
+        <?php includePhp('header'); ?>
+    </header>
+
+    <div class="box_1">
+        <div class="w3-content w3-section">
+            <img class="mySlides" src="Images/image1.jpg" style="width:100%; height: 55vw" >
+            <img class="mySlides" src="Images/image2.jpg" style="width:100%; height: 55vw" >
+            <img class="mySlides" src="Images/image3.jpg" style="width:100%; height: 55vw" >
+        </div>
+        <script> var myIndex = 0; carousel(); </script>
+        <div class="box">
+
+            <h1> <span>Bienvenue</span>  Chez Hotel Neptune</h1>
+            <div class="bouton_accueil">
+                <p>
+                    <a href="#">Réserver votre séjour ici</a>
+                </p>
+            </div>
+
+        </div>
+        <h1 class="h1_test"> Destinations recommandées</h1>
+
+        <div class="box3">
+            <div class="box_image">
+            <div class="Image1">
+                <img class="london" src="images\london.jpg" href="#" alt="">
+
+
+                <div class="Info">
+                    <p> <a href="#"> LONDRES  <br><div class="paragraphe"> est située dans le Sud-Est de la Grande-Bretagne </div></a></p>
+                </div>
+            </div>
+
+
+            <div class="Image2">
+                <img class="rome" src="images/rome.jpg" alt="">
+                <div class="Info_2">
+                    <p> <a href="#">ROME</a> </p>
+                </div>
+            </div>
+
+            <div class="Image3">
+                <img class="espagne" src="images/espagne.jpg" alt="">
+                <div class="Info_3">
+                    <p><a href="#">ESPAGNE</a></p>
+                </div>
+            </div>
+            <div class="Image4">
+                <img class="grece" src="images/grece.jpg" alt="">
+                <div class="Info_4">
+                    <p><a href="#">GRECE</a></p>
+                </div>
+            </div>
+            </div>
+            <div class="bouton3">
+                <p>
+                <div class="abouton">
+                    <a href="?">Plus de Destinations</a>
+                </div>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<footer style="height: 50vw;
+  margin-top: 2vw;">
+    <div class="footer" style="height: 50vw;">
+
+        <h3 id="Ds" > Nouveautés </h3>
+        <div class="footer_1">
+            <ul>
+                <li class="Ds"><a href="#"> Villa </a></li>
+                <li><a href="#"> Appartement </a></li>
+                <li><a href="#"> Maison </a></li>
+                <li><a href="#"> Hotel </a></li>
+            </ul>
+        </div>
+
+        <h3 id="Lpp"> Les Best Réservations </h3>
+        <div class="footer_2">
+            <nav>
+                <center>
+                <ul>
+                    <li class="Lpp"><a href="?"> ROME </a></li>
+                    <li><a href="?"> LONDRES </a></li>
+                    <li><a href="?" > PARIS </a></li>
+                    <li><a href="?"> GRECE </a></li>
+                </ul>
+                </center>
+            </nav>
+        </div>
+
+        <h3 id="Menu"> Menu </h3>
+        <div class="footer_3">
+            <nav>
+                <ul>
+                    <li class="Menu"><a href="?page=welcome"> ACCUEIL</a></li>
+                    <li><a href="?page=nouveauté"> NOUVEAUTE </a></li>
+                    <li><a href="?page=réservations "> RESERVATIONS </a></li>
+                    <li><a href="?page=contact"> CONTACT </a></li>
+                </ul>
+            </nav>
+        </div>
+        <center><hr id="footer_hr"></center>
+        <a href="#">
+            <img class="arrow" src="images/arrow1.png" alt="">
+        </a>
+
+        <div id="container_2">
+            <h2>Subscribe</h2>
+            <p>Restez à jour avec notre Newsletter</p>
+
+            <form>
+                <input type="email" placeholder="Entrez votre Email" required>
+                <button>Subscribe</button>
+            </form>
+        </div>
+        <h4 id="copyright">Copyright © 2020 Automobil OrniCar S.p.A. société</h4>
+    </div>
+</footer>
+</html>

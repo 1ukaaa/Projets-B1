@@ -1,0 +1,144 @@
+*{
+  box-sizing: border-box;
+  margin: 0vw;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 100;
+}
+
+
+header{
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 7vw;
+  width: 100%;
+  position: absolute;
+  margin-top: -0vw;
+  top: 0vw;
+}
+
+.Logo{
+  float: left;
+  width: 5vw;
+  height: 5vw;
+  margin-top: 1vw;
+  margin-left: 2vw;
+}
+
+header nav li{
+  display: inline-block;
+  margin: 2.5vw 0vw 0vw 3vw; /*Haut, droite, bas, gauche*/
+
+
+}
+
+header nav li a{
+  text-decoration: none;
+  color: white;
+  width: 2vw;
+  font-size: 1.5vw;
+}
+
+header nav li a:hover{
+  text-decoration: underline red;
+}
+
+.all_bouton{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1vw;
+  margin-top: -2.3vw;
+}
+
+.bouton2 a {
+  background: #cdcdcd;
+  border-radius: 0.8vw;
+  border: solid 0.15vw #cdcdcd;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1vw;
+  padding: 1vw 1vw 1vw 1vw;
+  text-decoration: none;
+}
+
+.bouton2{
+  padding-right: 2vw;
+}
+
+.bouton2 a:hover {
+  background: #868686;
+  border: solid 0.15vw red;
+}
+
+.bouton3 a {
+  background: #cdcdcd;
+  border-radius: 0.8vw;
+  border: solid 0.15vw #cdcdcd;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1vw;
+  padding: 1vw 1vw 1vw 1vw;
+  text-decoration: none;
+}
+
+.bouton3{
+  padding-right: 14vw;
+  margin-top: -0.85vw;
+}
+
+.bouton3 a:hover {
+  background: #868686;
+  border: solid 0.15vw red;
+}
+
+.box_connexion{
+  background-color: rgb(133, 0, 0, 0.3);
+  width: 20%;
+  height: 3vw;
+  position: absolute;
+  margin: 2.5vw 0vw 0vw 0.7vw;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.title {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 3vw;
+  letter-spacing: 1px;
+}
+
+.h1_lastname {
+  background-image: url(https://img1.picmix.com/output/stamp/normal/4/7/7/6/1196774_ef799.gif);
+  background-position: right;
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 1vw;
+  line-height: .75;
+}
+/* styling my button */
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: absolute;
+  left: 150px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: #FFF;
+  color: #122;
+}

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Stoke&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0vw;
+}
+
+
+
+.box_1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -7vw;
+}
+
+.box{
+  background-color: rgb(225, 225, 225, 0.5);
+  width: 40%;
+  height: 20vw;
+  position: absolute;
+  text-align: center;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  border: solid 0.15vw rgb(225, 225, 225, 0.5);
+
+}
+
+.box:hover{
+  border: solid 0.15vw red;
+}
+
+.box h1{
+  margin-top: 3vw;
+  margin-left: 20%;
+  width: 60%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.8vw;
+  color: rgb(57, 57, 57);
+
+}
+
+.bouton_accueil{
+  display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.bouton_accueil a{
+    background: #d70303;
+    border-radius: 0.3vw;
+    font-family: Arial;
+    color: white;
+    font-size: 1vw;
+    padding: 1vw 1vw 1vw 1vw;
+    text-decoration: none;
+}
+
+.bouton_accueil a:hover{
+  background-color: #ae0404  ;
+}
+
+.box_1 h1 span {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 3.5vw;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, red, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.mySlides{
+    height: 5vw;
+    width: 10%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+     /* Les plus populaires */
+ .h1_test{
+     text-align: left;
+     font-size: 2vw;
+     padding-top: 2vw;
+     margin: 0vw 0vw 0vw 6vw;
+     text-decoration: none;
+
+ }
+
+.box_image a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+
+}
+
+.box_image a:hover{
+}
+
+.abouton{
+    display: flex;
+    justify-content: center;
+    margin: 3vw 0vw 0vw 15vw; /*Haut Droite Bas Gauche*/
+}
+
+.abouton a{
+    background-color: white;
+    border-radius: 0.3vw;
+    border:0.25vw solid red;
+    font-family: Arial;
+    color: red;
+    font-size: 1.5vw;
+    padding: 1vw 1vw 1vw 1vw;
+    text-decoration: none;
+}
+
+.abouton a:hover{
+    background-color: red;
+    color: white;
+}
+
+.paragraphe{
+    font-size: 1.5vw;
+    display: none;
+}
+
+.Image1{
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+
+.london{
+    position: relative;
+    margin: 0vw 3vw 1.5vw 6vw; /*Haut Droite Bas Gauche*/
+    height: 30vw;
+    width: 48vw;
+    z-index: 1;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+.london:hover{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.Info{
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    font-size: 2.3vw;
+    margin: 5vw 0vw 0vw 0vw ;
+}
+
+.Image2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rome{
+    display: flex;
+    margin: 0vw 6vw 0vw 0vw; /*Haut Droite Bas Gauche*/
+    height: 30vw;
+    width: 40vw;
+    z-index: 1;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+.rome:hover{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.Info_2{
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    font-size: 2.3vw;
+    margin: 5vw 0vw 0vw -2.5vw ;
+}
+
+.Image3 {
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+
+.espagne{
+    display: flex;
+    margin: -0.8vw 4vw 0vw 6vw; /*Haut Droite Bas Gauche*/
+    height: 30vw;
+    width: 40vw;
+    z-index: 1;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+.espagne:hover{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.Info_3{
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    font-size: 2.3vw;
+    margin: 5vw 0vw 0vw 0vw ;
+}
+
+.Image4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grece{
+    display: flex;
+    margin: 0.7vw 0vw 0vw -14vw; /*Haut Droite Bas Gauche*/
+    height: 30vw;
+    width: 48vw;
+    z-index: 1;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+}
+
+.grece:hover{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.Info_4{
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    font-size: 2.3vw;
+    margin: 5vw 0vw 0vw -6vw ;
+}
+
+.banniere{
+    background: grey;
+    width: 100%;
+    height: 10vw;
+    margin: 3vw 0vw 0vw 0vw; /*Haut Droite Bas Gauche*/
+    background-color: rgb(215, 215, 215, 0.8)
+}
+
+.Logo_certifie{
+    float: left;
+    width: 10vw;
+    height: 10vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+footer{
+  background: white;
+  width: 100%;
+  height: 5vw;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

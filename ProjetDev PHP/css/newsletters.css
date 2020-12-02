@@ -1,0 +1,76 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+
+
+#container_2{
+    background-image: linear-gradient(to top, rgba(255, 99, 78, 0.40) 0%, rgba(138, 17, 0 , 0.71) 100%);
+    box-shadow: 0 1.5vw 3vw 1px rgba(128, 128, 128, 0.31);
+    text-align: center;
+    border-radius: 5px;
+    margin: 3vw auto;
+    background: rgba(255, 255, 255, 0.3);
+    height: 15vw;
+    width: 55vw;
+    padding: 1vw;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+
+
+}
+
+#container_2 h2 {
+    -webkit-background-clip: text;
+    /* 	background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%); */
+    font-family: 'Playfair Display', serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+    letter-spacing: 0.2vw;
+    font-size: 2vw;
+    margin: 0;
+
+
+
+}
+#container_2 p {
+    font-family: 'Farsan', cursive;
+    margin: 0.3vw 0 1vw 0;
+    font-size: 1.3vw;
+    color: white;
+}
+
+#container_2 input {
+    /* 	background: rgba(255, 13, 254, 0.90); */
+    width: 50vw;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0.7vw;
+    background: #eee;
+    padding: 1vw 2vw;
+    outline: none;
+    border: none;
+    color: #222;
+    transition: 0.3s linear;
+}
+::placeholder{color: #999;}
+#container_2 input:focus {background: rgba(138, 17, 0 , 0.10);}
+
+#container_2 button {
+    background-image: linear-gradient(to left, rgba(255, 51, 23, 0.75) 0%, rgba(208, 25, 0, 0.86) 100%);
+    box-shadow: 0 9px 2vw -5px #0F0909;
+    font-family: 'Abel', sans-serif;
+    padding: 0.5vw 1.9vw;
+    margin: 2.3vw 0 0 0;
+    border-radius: 7px;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    transition: 0.3s linear;
+
+}
+#container_2 button:hover{transform: translatey(2px);}
+#container_2 button:active{transform: translatey(5px);}

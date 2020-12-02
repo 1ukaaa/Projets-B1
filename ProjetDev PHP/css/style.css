@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 100;
+}
+
+
+header{
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 7vw;
+    width: 100%;
+    position: absolute;
+    margin-top: -0vw;
+    top: 0vw;
+}
+
+.Logo{
+    float: left;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+header nav li{
+    display: inline-block;
+    margin: 2.5vw 0vw 0vw 3vw; /*Haut, droite, bas, gauche*/
+
+
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+    width: 2vw;
+    font-size: 1.5vw;
+}
+
+header nav li a:hover{
+    text-decoration: underline red;
+}
+
+.all_bouton{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1vw;
+    margin-top: -2.3vw;
+}
+
+.bouton2 a {
+    background: #cdcdcd;
+    border-radius: 0.8vw;
+    border: solid 0.15vw #cdcdcd;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1vw;
+    padding: 1vw 1vw 1vw 1vw;
+    text-decoration: none;
+}
+
+.bouton2{
+    padding-right: 2vw;
+}
+
+.bouton2 a:hover {
+    background: #868686;
+    border: solid 0.15vw red;
+}
+
+.bouton3 a {
+    background: #cdcdcd;
+    border-radius: 0.8vw;
+    border: solid 0.15vw #cdcdcd;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1vw;
+    padding: 1vw 1vw 1vw 1vw;
+    text-decoration: none;
+}
+
+.bouton3{
+    padding-right: 14vw;
+    margin-top: -0vw;
+}
+
+.bouton3 a:hover {
+    background: #868686;
+    border: solid 0.15vw red;
+}

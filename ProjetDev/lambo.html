@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS-partie 3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/lambo.css">
+    <link rel="stylesheet" href="css/footer.css">
+  </head>
+  
+  <body>
+    <header>
+    
+      <img class="Logo" src="images\ornicar.png" alt="">
+    
+      <nav>
+        <ul>
+          <li class="home"><a href="ProjetDev.html">Accueil</a></li>
+          <li><a href="Trailer.html">Trailer</a></li>
+          <li><a href="#" id="about">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="right search">
+        <form>
+          <input type="search" placeholder="Search...">
+        </form>
+      </div>
+      <div class="all_bouton">
+        <div class="bouton">
+          <p>
+            <a href="SignUp.html">Sign Up</a>
+          </p>
+        </div>
+        <div class="bouton2">
+          <p>
+            <a href="LogIn.html">Log In</a>
+          </p>
+        </div>
+      </div>
+    
+    
+    </header>
+
+      <main>
+        <div class="Féfé">
+        </div>
+
+        <hr>
+
+        <h1 class="h1"> Lamborghini Aventador S </h1>
+
+    
+
+        <div class="Carac">
+          <div class="caractéristiques">
+            <p>Elle se démarque par quatre roues directrices, un train arrière installé sur la suspension, de nouveaux boucliers pour améliorer l'aérodynamisme et V12 qui modifie sa puissance à 740 ch. La vitesse maximale est de 350 km/h et le 0 à 100 km/h est abattu en 2,9 secondes à 3 secondes.</p>
+          </div>
+
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/rCDOMKvUIPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <p class="plambo">Pionnière de sa catégorie, la nouvelle Aventador S propose une association unique entre le système actif de direction (Lamborghini Dynamic Steering) et le système de direction arrière (Lamborghini Rear-wheel Steering), pour offrir une performance dynamique d'exception. Le système LDS s'adapte à la vitesse et aux modalités de conduite choisies par le pilote, passant d'une direction directe à une direction moins directe. Le système LRS, quant à lui, dirige l’essieu arrière directionnel grâce à deux actionneurs électromécaniques. Grâce à ce système, à faible vitesse l'essieu arrière se dirige dans le sens opposé à l'essieu avant. Ce mécanisme conduit à une réduction virtuelle de l'empattement, qui se traduit par une meilleure agilité et des performances accrues dans les virages inaccessibles. Cependant, à grande vitesse, les deux essieux tournent en parallèle, ce qui entraîne une augmentation virtuelle de l'empattement, garantissant ainsi un contrôle total et une grande stabilité de l'automobile.La nouvelle Aventador S est équipée d'amortisseurs avant et arrière magnéto-rhéologiques avec système pushrod. Ces dispositifs modifient constamment le comportement des suspensions en fonction de l'état de la chaussée et du mode de pilotage choisi par le conducteur. En plus de compenser le roulis et les mouvements indésirables de la coque, le système a été spécialement conçu pour fonctionner avec le Rear-wheel Steering System, offrant ainsi la solution idéale dans chaque situation.</p>
+        
+
+        <script src="Javascript/pagelambo.js"></script>
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 5</div>
+            <img class="gallery1" src="Images/lambo3.jpg" >
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">2 / 5</div>
+            <img class="gallery1" src="Images/lambo1.jpg" >
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">3 / 5</div>
+            <img class="gallery1" src="Images/lambo2.jpg" >
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">4 / 5</div>
+            <img class="gallery1" src="Images/lambo4.jpg" >
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+            <img class="gallery1" src="Images/lambo5.jpg" >
+          </div>
+            
+        
+            
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor gallery2" src="images/lambo3.jpg"    onclick="currentSlide(1)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor gallery2" src="images/lambo1.jpg"  onclick="currentSlide(2)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor gallery2" src="images/lambo2.jpg"  onclick="currentSlide(3)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor gallery2" src="images/lambo4.jpg"   onclick="currentSlide(4)" alt="">
+            </div>
+            <div class="column">
+              <img class="demo cursor gallery2" src="images/lambo5.jpg"  onclick="currentSlide(5)" alt="">
+            </div>    
+           
+          </div>
+        </div>
+      </main>
+      
+
+
+
+      <footer>
+        <div class="footer">
+      
+          <h3 id="Ds"> Dernières sorties </h3>
+          <div class="footer_1">
+            <ul>
+              <li class="Ds"><a href="#"> TESLA MODEL X </a></li>
+              <li><a href="#"> BMW M8 Compétition </a></li>
+              <li><a href="#"> Maserati GranTurismo </a></li>
+              <li><a href="#"> FERRARI ROMA </a></li>
+            </ul>
+          </div>
+      
+          <h3 id="Lpp"> Les plus Populaires </h3>
+          <div class="footer_2">
+            <nav>
+              <ul>
+                <li class="Lpp"><a href="bmw.html"> BMW SERIE 3 BERLINE</a></li>
+                <li><a href="camaro.html"> CHEVROLET CAMARO </a></li>
+                <li><a href="lambo.html" > LAMBORGHINI </a></li>
+                <li><a href="amg.html"> MERCEDES AMG </a></li>
+              </ul>
+            </nav>
+          </div>
+      
+          <h3 id="Menu"> Menu </h3>
+          <div class="footer_3">
+            <nav>
+              <ul>
+                <li class="Menu"><a href="#"> ACCUEIL</a></li>
+                <li><a href="Trailer.html"> TRAILER </a></li>
+                <li><a href="#"> NEWS </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+              </ul>
+            </nav>
+          </div>
+          <center>
+            <hr id="footer_hr">
+          </center>
+      
+          <h3 class="Contact"> Nous contacter ! </h3>
+          <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+          </style>
+          <div class="rs">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <span> - Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <span> - Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-google-plus" aria-hidden="true"></i>
+                  <span> - Youtube</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <span> - Instagram</span>
+                </a>
+              </li>
+          </div>
+          <a href="">
+            <img href="#" class="arrow" src="images/arrow1.png" alt="">
+          </a>
+          <h4 id="copyright">Copyright © 2020 Automobil OrniCar S.p.A. société</h4>
+        </div>
+      </footer>
+      
+    </body>
+  </html>
